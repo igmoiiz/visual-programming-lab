@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Visual Programming\\ShoppingCart\\ShoppingCart.csproj": {}
+    "D:\\Programming\\Visual Programming\\Projects\\Design 1\\ShoppingCart\\ShoppingCart.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Visual Programming\\ShoppingCart\\ShoppingCart.csproj": {
+    "D:\\Programming\\Visual Programming\\Projects\\Design 1\\ShoppingCart\\ShoppingCart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Visual Programming\\ShoppingCart\\ShoppingCart.csproj",
+        "projectUniqueName": "D:\\Programming\\Visual Programming\\Projects\\Design 1\\ShoppingCart\\ShoppingCart.csproj",
         "projectName": "ShoppingCart",
-        "projectPath": "D:\\Programming\\Visual Programming\\ShoppingCart\\ShoppingCart.csproj",
+        "projectPath": "D:\\Programming\\Visual Programming\\Projects\\Design 1\\ShoppingCart\\ShoppingCart.csproj",
         "packagesPath": "C:\\Users\\Moaiz\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Visual Programming\\ShoppingCart\\obj\\",
+        "outputPath": "D:\\Programming\\Visual Programming\\Projects\\Design 1\\ShoppingCart\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Moaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
