@@ -1,0 +1,5 @@
+D:\Programming\Visual Programming\Projects\Design 1\CarShopAppConsole\obj\Debug\net8.0\CarShopAppConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Projects\Design 1\CarShopAppConsole\obj\Debug\net8.0\CarShopAppConsole.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Projects\Design 1\CarShopAppConsole\obj\Debug\net8.0\CarShopAppConsole.AssemblyInfo.cs
+D:\Programming\Visual Programming\Projects\Design 1\CarShopAppConsole\obj\Debug\net8.0\CarShopAppConsole.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Projects\Design 1\CarShopAppConsole\obj\Debug\net8.0\CarShopAppConsole.sourcelink.json

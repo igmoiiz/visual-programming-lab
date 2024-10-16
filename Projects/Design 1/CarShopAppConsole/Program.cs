@@ -8,7 +8,9 @@ namespace CarShopAppConsole
 {
     class Program
     {
-        static void Main(string[] args) {
+        static void Main(string[] args) 
+        {
+            CarClass car = new CarClass();
         }
     }
 }

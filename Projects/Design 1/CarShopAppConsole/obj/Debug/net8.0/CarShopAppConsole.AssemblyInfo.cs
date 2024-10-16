@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarShopAppConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95ab4411b9fc3c47638e0eff1528b5601bba8256")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fcea64cd12cc402f8703b2cb456b4c081868cc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarShopAppConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarShopAppConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
