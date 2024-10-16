@@ -1,0 +1,14 @@
+D:\VisualProgramming\bin\Debug\net8.0\VisualProgramming.exe
+D:\VisualProgramming\bin\Debug\net8.0\VisualProgramming.deps.json
+D:\VisualProgramming\bin\Debug\net8.0\VisualProgramming.runtimeconfig.json
+D:\VisualProgramming\bin\Debug\net8.0\VisualProgramming.dll
+D:\VisualProgramming\bin\Debug\net8.0\VisualProgramming.pdb
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.AssemblyInfoInputs.cache
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.AssemblyInfo.cs
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.csproj.CoreCompileInputs.cache
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.dll
+D:\VisualProgramming\obj\Debug\net8.0\refint\VisualProgramming.dll
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.pdb
+D:\VisualProgramming\obj\Debug\net8.0\VisualProgramming.genruntimeconfig.cache
+D:\VisualProgramming\obj\Debug\net8.0\ref\VisualProgramming.dll
