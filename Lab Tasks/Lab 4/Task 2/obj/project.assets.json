@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Visual Programming\\Task 2\\Task 2.csproj",
+      "projectUniqueName": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 4\\Task 2\\Task 2.csproj",
       "projectName": "Task 2",
-      "projectPath": "D:\\Programming\\Visual Programming\\Task 2\\Task 2.csproj",
+      "projectPath": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 4\\Task 2\\Task 2.csproj",
       "packagesPath": "C:\\Users\\Moaiz\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Visual Programming\\Task 2\\obj\\",
+      "outputPath": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 4\\Task 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Moaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",

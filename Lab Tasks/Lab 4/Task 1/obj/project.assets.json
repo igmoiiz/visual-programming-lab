@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualProgramming\\VisualProgramming.csproj",
+      "projectUniqueName": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 4\\Task 1\\VisualProgramming.csproj",
       "projectName": "VisualProgramming",
-      "projectPath": "D:\\VisualProgramming\\VisualProgramming.csproj",
+      "projectPath": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 4\\Task 1\\VisualProgramming.csproj",
       "packagesPath": "C:\\Users\\Moaiz\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualProgramming\\obj\\",
+      "outputPath": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 4\\Task 1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Moaiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
