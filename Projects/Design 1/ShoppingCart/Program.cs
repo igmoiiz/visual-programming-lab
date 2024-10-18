@@ -1,213 +1,284 @@
-﻿using System;
+﻿
+//Static Libraries
+
+using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 
-namespace ShoppingCart
+// Represents a product with its details
+public class Product
 {
-    class Program
+    public int Id { get; set; } // Product ID
+    public string Name { get; set; } // Product name
+    public decimal Price { get; set; } // Product price
+    public int Quantity { get; set; } // Quantity of the product
+
+    // Constructor to initialize a new product
+    public Product(int id, string name, decimal price, int quantity = 1)
     {
-        static void Main(string[] args)
+        Id = id;
+        Name = name;
+        Price = price;
+        Quantity = quantity;
+    }
+}
+
+// Manages the shopping cart functionality
+public class ShoppingCart
+{
+    private List<Product> _products; // List to hold products in the cart
+    private const string DataFile = "cart.txt"; // File to store cart data
+
+    // Constructor to load existing cart products from file
+    public ShoppingCart()
+    {
+        _products = LoadCart();
+    }
+
+    // Adds a product to the cart
+    public void AddProduct(Product product)
+    {
+        var existingProduct = _products.FirstOrDefault(p => p.Id == product.Id);
+        if (existingProduct != null)
         {
-            ShoppingCart shoppingCart = new ShoppingCart(@"D:\Programming\Visual Programming\Projects\Design 1\ShoppingCart\shoppingCart.txt");
-            shoppingCart.LoadCart();
+            // If product already exists, increase its quantity
+            existingProduct.Quantity += product.Quantity;
+        }
+        else
+        {
+            // Otherwise, add the new product to the cart
+            _products.Add(product);
+        }
+        SaveCart(); // Save the updated cart to file
+    }
 
-            while (true)
+    // Removes a product from the cart by ID
+    public void RemoveProduct(int productId)
+    {
+        var product = _products.FirstOrDefault(p => p.Id == productId);
+        if (product != null)
+        {
+            _products.Remove(product); // Remove product if found
+        }
+        SaveCart(); // Save the updated cart to file
+    }
+
+    // Displays the current contents of the cart
+    public void ViewCart()
+    {
+        if (_products.Count == 0)
+        {
+            Console.WriteLine("Your shopping cart is empty."); // Notify if cart is empty
+            return;
+        }
+
+        Console.WriteLine("Your Shopping Cart:");
+        foreach (var product in _products)
+        {
+            // Display each product's details
+            Console.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}, Quantity: {product.Quantity}");
+        }
+    }
+
+    // Calculates the total amount due, including tax and discounts
+    public void CalculateTotal(decimal salesTax = 0.1m)
+    {
+        var total = _products.Sum(p => p.Price * p.Quantity); // Calculate total product price
+        Console.WriteLine($"Total amount of cart products: {total:C}");
+
+        var salesTaxAmount = total * salesTax; // Calculate sales tax
+        Console.WriteLine($"Sales tax (10%): {salesTaxAmount:C}");
+
+        var totalAfterTax = total + salesTaxAmount; // Calculate total after tax
+        Console.WriteLine($"Total amount after tax: {totalAfterTax:C}");
+
+        // Ask user if they want to apply a discount
+        Console.WriteLine("Do you want to apply a discount? (yes/no)");
+        string applyDiscountResponse = Console.ReadLine();
+
+        if (applyDiscountResponse?.ToLower() == "yes")
+        {
+            Console.WriteLine("Enter discount amount:");
+            string discountInput = Console.ReadLine();
+            if (decimal.TryParse(discountInput, out decimal discount))
             {
-                shoppingCart.DisplayMenu();
+                totalAfterTax -= discount; // Apply discount if valid
+                Console.WriteLine($"Discount applied: {discount:C}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid discount amount. No discount applied.");
+            }
+        }
 
-                Console.Write("Enter your choice: ");
-                if (int.TryParse(Console.ReadLine(), out int choice))
-                {
-                    switch (choice)
-                    {
-                        case 1:
-                            shoppingCart.AddItem();
-                            break;
-                        case 2:
-                            shoppingCart.RemoveItem();
-                            break;
-                        case 3:
-                            shoppingCart.ViewCart();
-                            break;
-                        case 4:
-                            shoppingCart.Checkout();
-                            break;
-                        case 5:
-                            shoppingCart.SaveCart();
-                            Environment.Exit(0);
-                            break;
-                        default:
-                            Console.WriteLine("Invalid choice. Please try again.");
-                            break;
-                    }
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please enter a number.");
-                }
+        // Display final amount and ask for checkout confirmation
+        Console.WriteLine($"Final amount due: {totalAfterTax:C}");
+        Console.WriteLine("Are you sure you want to checkout? (yes/no)");
+        string checkoutResponse = Console.ReadLine();
+
+        if (checkoutResponse?.ToLower() == "yes")
+        {
+            Console.WriteLine("Enter your Buyer ID:");
+            string buyerId = Console.ReadLine();
+            SaveCheckoutDetails(buyerId, totalAfterTax); // Save checkout details
+            ClearCart(); // Clear the cart after checkout
+            Console.WriteLine("Checkout successful! Thank you for your purchase.");
+        }
+        else
+        {
+            Console.WriteLine("Checkout canceled.");
+        }
+    }
+
+    // Saves checkout details to a file
+    private void SaveCheckoutDetails(string buyerId, decimal totalAmount)
+    {
+        string checkoutFile = $"checkout_{buyerId}.txt"; // Create a file for the checkout
+        using (var writer = new StreamWriter(checkoutFile))
+        {
+            writer.WriteLine($"Buyer ID: {buyerId}");
+            writer.WriteLine($"Total Amount: {totalAmount:C}");
+            writer.WriteLine($"Date: {DateTime.Now}");
+            writer.WriteLine("Products Purchased:");
+            foreach (var product in _products)
+            {
+                writer.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}, Quantity: {product.Quantity}");
             }
         }
     }
 
-    class ShoppingCart
+    // Clears the cart by removing all products
+    private void ClearCart()
     {
-        private List<Item> cart;
-        private string cartFileName;
+        _products.Clear();
+        SaveCart(); // Save an empty cart to file
+    }
 
-        public ShoppingCart(string fileName)
+    // Loads existing cart products from file
+    private List<Product> LoadCart()
+    {
+        if (!File.Exists(DataFile)) return new List<Product>();
+
+        var lines = File.ReadAllLines(DataFile);
+        var products = new List<Product>();
+
+        foreach (var line in lines)
         {
-            cart = new List<Item>();
-            cartFileName = fileName;
+            var parts = line.Split(',');
+            if (parts.Length != 4 ||
+                !int.TryParse(parts[0], out int id) ||
+                string.IsNullOrWhiteSpace(parts[1]) ||
+                !decimal.TryParse(parts[2], out decimal price) ||
+                !int.TryParse(parts[3], out int quantity))
+            {
+                Console.WriteLine($"Invalid line format: {line}");
+                continue;
+            }
+
+            products.Add(new Product(id, parts[1], price, quantity));
         }
 
-        public void DisplayMenu()
+        return products;
+    }
+
+    // Saves the current cart products to file
+    private void SaveCart()
+    {
+        using (var writer = new StreamWriter(DataFile))
         {
-            Console.WriteLine("\nShopping Cart Menu:");
-            Console.WriteLine("1. Add item");
-            Console.WriteLine("2. Remove item");
-            Console.WriteLine("3. View cart");
-            Console.WriteLine("4. Checkout");
-            Console.WriteLine("5. Exit");
-        }
-
-        public void AddItem()
-        {
-            Console.Write("Enter item name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter item price: ");
-            if (double.TryParse(Console.ReadLine(), out double price) && price >= 0)
+            foreach (var product in _products)
             {
-                Console.Write("Enter item quantity: ");
-                if (int.TryParse(Console.ReadLine(), out int quantity) && quantity > 0)
-                {
-                    cart.Add(new Item(name, price, quantity));
-                    Console.WriteLine("Item added to cart.");
-                }
-                else
-                {
-                    Console.WriteLine("Invalid quantity. Please enter a positive integer.");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Invalid price. Please enter a valid number.");
-            }
-        }
-
-        public void RemoveItem()
-        {
-            Console.Write("Enter item name to remove: ");
-            string name = Console.ReadLine();
-
-            Item itemToRemove = cart.Find(i => i.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
-            if (itemToRemove != null)
-            {
-                cart.Remove(itemToRemove);
-                Console.WriteLine("Item removed from cart.");
-            }
-            else
-            {
-                Console.WriteLine("Item not found in cart.");
-            }
-        }
-
-        public void ViewCart()
-        {
-            Console.WriteLine("Your shopping cart:");
-            if (cart.Count == 0)
-            {
-                Console.WriteLine("Your cart is empty.");
-                return;
-            }
-
-            foreach (Item item in cart)
-            {
-                Console.WriteLine($"{item.Name} - ${item.Price:F2} - Quantity: {item.Quantity}");
-            }
-        }
-
-        public void Checkout()
-        {
-            double total = 0;
-            foreach (Item item in cart)
-            {
-                total += item.Price * item.Quantity;
-            }
-
-            Console.WriteLine($"Total: ${total:F2}");
-            Console.WriteLine("Checkout complete.");
-            cart.Clear();
-        }
-
-        public void SaveCart()
-        {
-            try
-            {
-                using (StreamWriter writer = new StreamWriter(cartFileName))
-                {
-                    foreach (Item item in cart)
-                    {
-                        // Removed the space before the dollar sign
-                        writer.WriteLine($"{item.Name},{item.Price},{item.Quantity}");
-                    }
-                }
-                Console.WriteLine("Cart saved successfully.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error saving cart: " + ex.Message);
-            }
-        }
-
-        public void LoadCart()
-        {
-            if (File.Exists(cartFileName))
-            {
-                try
-                {
-                    using (StreamReader reader = new StreamReader(cartFileName))
-                    {
-                        string line;
-                        while ((line = reader.ReadLine()) != null)
-                        {
-                            string[] parts = line.Split(',');
-                            if (parts.Length == 3 &&
-                                double.TryParse(parts[1], out double price) &&
-                                int.TryParse(parts[2], out int quantity))
-                            {
-                                cart.Add(new Item(parts[0], price, quantity));
-                            }
-                            else
-                            {
-                                Console.WriteLine($"Error parsing line: {line}");
-                            }
-                        }
-                    }
-                    Console.WriteLine("Cart loaded successfully.");
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Error loading cart: " + ex.Message);
-                }
-            }
-            else
-            {
-                Console.WriteLine("Cart file not found.");
+                writer.WriteLine($"{product.Id},{product.Name},{product.Price},{product.Quantity}");
             }
         }
     }
+}
 
-    class Item
+class Program
+{
+    static void Main(string[] args)
     {
-        public string Name { get; set; }
-        public double Price { get; set; }
-        public int Quantity { get; set; }
+        var cart = new ShoppingCart();
+        bool running = true;
 
-        public Item(string name, double price, int quantity)
+        while (running)
         {
-            Name = name;
-            Price = price;
-            Quantity = quantity;
+            Console.WriteLine("1. Add Product\n2. Remove Product\n3. View Cart\n4. Checkout\n5. Exit\n");
+            Console.WriteLine("Please Select any of the Following Options(1-5): ");
+            var choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                //  Add a New item
+                case "1":
+                    Console.WriteLine("Enter Product ID:");
+                    string idInput = Console.ReadLine();
+                    if (!int.TryParse(idInput, out int id))
+                    {
+                        Console.WriteLine("Invalid ID. Please enter a valid number.");
+                        break;
+                    }
+
+                    Console.WriteLine("Enter Product Name:");
+                    string name = Console.ReadLine();
+                    if (string.IsNullOrWhiteSpace(name))
+                    {
+                        Console.WriteLine("Product name cannot be empty.");
+                        break;
+                    }
+
+                    Console.WriteLine("Enter Product Price:");
+                    string priceInput = Console.ReadLine();
+                    if (!decimal.TryParse(priceInput, out decimal price))
+                    {
+                        Console.WriteLine("Invalid price. Please enter a valid decimal number.");
+                        break;
+                    }
+
+                    Console.WriteLine("Enter Product Quantity:");
+                    string quantityInput = Console.ReadLine();
+                    if (!int.TryParse(quantityInput, out int quantity))
+                    {
+                        Console.WriteLine("Invalid quantity. Please enter a valid number.");
+                        break;
+                    }
+
+                    cart.AddProduct(new Product(id, name, price, quantity));
+                    break;
+
+                //  Remove a Product
+                case "2":
+                    Console.WriteLine("Enter Product ID to remove:");
+                    string productIdInput = Console.ReadLine();
+                    if (!int.TryParse(productIdInput, out int productId))
+                    {
+                        Console.WriteLine("Invalid ID. Please enter a valid number.");
+                        break;
+                    }
+                    cart.RemoveProduct(productId);
+                    break;
+
+                //  View Your Cart
+                case "3":
+                    cart.ViewCart();
+                    break;
+
+                //  Checkout Froom the Cart
+                case "4":
+                    cart.CalculateTotal();
+                    break;
+
+                //  Exit The Program
+                case "5":
+                    running = false;
+                    break;
+
+                //  What if the things go Sideways? Wrong input! Exception
+                default:
+                    Console.WriteLine("Invalid choice. Please choose a valid option.");
+                    break;
+            }
         }
     }
 }
