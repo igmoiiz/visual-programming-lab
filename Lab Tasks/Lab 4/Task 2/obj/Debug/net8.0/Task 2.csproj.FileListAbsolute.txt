@@ -12,3 +12,18 @@ D:\Programming\Visual Programming\Task 2\obj\Debug\net8.0\refint\Task 2.dll
 D:\Programming\Visual Programming\Task 2\obj\Debug\net8.0\Task 2.pdb
 D:\Programming\Visual Programming\Task 2\obj\Debug\net8.0\Task 2.genruntimeconfig.cache
 D:\Programming\Visual Programming\Task 2\obj\Debug\net8.0\ref\Task 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\bin\Debug\net8.0\Task 2.exe
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\bin\Debug\net8.0\Task 2.deps.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\bin\Debug\net8.0\Task 2.runtimeconfig.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\bin\Debug\net8.0\Task 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\bin\Debug\net8.0\Task 2.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.AssemblyInfo.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.sourcelink.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\refint\Task 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\Task 2.genruntimeconfig.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 4\Task 2\obj\Debug\net8.0\ref\Task 2.dll
