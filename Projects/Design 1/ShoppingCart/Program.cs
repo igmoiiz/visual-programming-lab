@@ -1,10 +1,9 @@
-﻿
-//Static Libraries
-
+﻿// Static Libraries
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Timers; 
 
 // Represents a product with its details
 public class Product
@@ -24,16 +23,48 @@ public class Product
     }
 }
 
+// Represents a user with their details
+public class User
+{
+    public string Id { get; set; } // User ID
+    public string Name { get; set; } // User name
+}
+
 // Manages the shopping cart functionality
 public class ShoppingCart
 {
     private List<Product> _products; // List to hold products in the cart
     private const string DataFile = "cart.txt"; // File to store cart data
+    private System.Timers.Timer _cartExpiryTimer; // Specify the Timer explicitly
 
     // Constructor to load existing cart products from file
     public ShoppingCart()
     {
         _products = LoadCart();
+        InitializeCartExpiryTimer(); // Initialize the cart expiry timer
+    }
+
+    // Initializes the cart expiry timer
+    private void InitializeCartExpiryTimer()
+    {
+        _cartExpiryTimer = new System.Timers.Timer(120000); // 120 seconds or 2 Minutes
+        _cartExpiryTimer.Elapsed += CartExpiryTimer_Elapsed;
+        _cartExpiryTimer.AutoReset = false; // Stop the timer after it elapses
+        _cartExpiryTimer.Start();
+    }
+
+    // Event handler for the cart expiry timer
+    private void CartExpiryTimer_Elapsed(object sender, ElapsedEventArgs e)
+    {
+        DisposeCart(); // Dispose of the cart when the timer expires
+    }
+
+    // Disposes of the cart by clearing its contents
+    private void DisposeCart()
+    {
+        _products.Clear();
+        SaveCart(); // Save an empty cart to file
+        Console.WriteLine("Cart has expired and been disposed.");
     }
 
     // Adds a product to the cart
@@ -93,105 +124,95 @@ public class ShoppingCart
         var totalAfterTax = total + salesTaxAmount; // Calculate total after tax
         Console.WriteLine($"Total amount after tax: {totalAfterTax:C}");
 
-        // Ask user if they want to apply a discount
-        Console.WriteLine("Do you want to apply a discount? (yes/no)");
-        string applyDiscountResponse = Console.ReadLine();
+        // Apply a hardcoded 5% discount
+        decimal discount = totalAfterTax * 0.05m; totalAfterTax -= discount;
+        Console.WriteLine($"Discount (5%): {discount:C}");
 
-        if (applyDiscountResponse?.ToLower() == "yes")
-        {
-            Console.WriteLine("Enter discount amount:");
-            string discountInput = Console.ReadLine();
-            if (decimal.TryParse(discountInput, out decimal discount))
-            {
-                totalAfterTax -= discount; // Apply discount if valid
-                Console.WriteLine($"Discount applied: {discount:C}");
-            }
-            else
-            {
-                Console.WriteLine("Invalid discount amount. No discount applied.");
-            }
-        }
+        // Ask user for their name
+        Console.WriteLine("Enter your name:");
+        string buyerName = Console.ReadLine();
 
-        // Display final amount and ask for checkout confirmation
-        Console.WriteLine($"Final amount due: {totalAfterTax:C}");
-        Console.WriteLine("Are you sure you want to checkout? (yes/no)");
+        // Create a new User object
+        User buyer = new User { Id = Guid.NewGuid().ToString(), Name = buyerName };
+
+        // Ask user for their ID input to name the checkout file
+        Console.WriteLine("Enter your ID:");
+        string userIdInput = Console.ReadLine();
+
+        // Display final amount and ask user to confirm checkout
+        Console.WriteLine($"Final total: {totalAfterTax:C}");
+        Console.WriteLine("Do you want to checkout? (yes/no)");
         string checkoutResponse = Console.ReadLine();
 
         if (checkoutResponse?.ToLower() == "yes")
         {
-            Console.WriteLine("Enter your Buyer ID:");
-            string buyerId = Console.ReadLine();
-            SaveCheckoutDetails(buyerId, totalAfterTax); // Save checkout details
-            ClearCart(); // Clear the cart after checkout
-            Console.WriteLine("Checkout successful! Thank you for your purchase.");
+            // Save the checkout products to a file named with the user ID
+            SaveCheckoutToFile(userIdInput, buyer, totalAfterTax);
+
+            DisposeCart(); // Dispose of the cart after checkout
+            Console.WriteLine("Checkout successful. Thank you for shopping!");
         }
         else
         {
-            Console.WriteLine("Checkout canceled.");
+            Console.WriteLine("Checkout cancelled. Your cart remains active.");
         }
     }
 
-    // Saves checkout details to a file
-    private void SaveCheckoutDetails(string buyerId, decimal totalAmount)
+    // Saves the checkout products to a file named with the user ID
+    private void SaveCheckoutToFile(string userId, User buyer, decimal totalAfterTax)
     {
-        string checkoutFile = $"checkout_{buyerId}.txt"; // Create a file for the checkout
-        using (var writer = new StreamWriter(checkoutFile))
+        string filename = $"checkout_{userId}.txt"; // Create a filename based on the user ID
+        using (StreamWriter writer = new StreamWriter(filename))
         {
-            writer.WriteLine($"Buyer ID: {buyerId}");
-            writer.WriteLine($"Total Amount: {totalAmount:C}");
-            writer.WriteLine($"Date: {DateTime.Now}");
-            writer.WriteLine("Products Purchased:");
+            writer.WriteLine($"Buyer Name: {buyer.Name}");
+            writer.WriteLine($"Buyer ID: {buyer.Id}");
+            writer.WriteLine("Products:");
             foreach (var product in _products)
             {
                 writer.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}, Quantity: {product.Quantity}");
             }
+            writer.WriteLine($"Total Bill: {totalAfterTax:C}");
+            writer.WriteLine($"Time of Purchase: {DateTime.Now}"); // Include the time of purchase
         }
+        Console.WriteLine($"Checkout products saved to {filename}");
     }
 
-    // Clears the cart by removing all products
-    private void ClearCart()
-    {
-        _products.Clear();
-        SaveCart(); // Save an empty cart to file
-    }
-
-    // Loads existing cart products from file
+    // Loads the cart from a file
     private List<Product> LoadCart()
     {
-        if (!File.Exists(DataFile)) return new List<Product>();
-
-        var lines = File.ReadAllLines(DataFile);
-        var products = new List<Product>();
-
-        foreach (var line in lines)
+        if (File.Exists(DataFile))
         {
-            var parts = line.Split(',');
-            if (parts.Length != 4 ||
-                !int.TryParse(parts[0], out int id) ||
-                string.IsNullOrWhiteSpace(parts[1]) ||
-                !decimal.TryParse(parts[2], out decimal price) ||
-                !int.TryParse(parts[3], out int quantity))
+            string[] lines = File.ReadAllLines(DataFile);
+            List<Product> products = new List<Product>();
+            foreach (string line in lines)
             {
-                Console.WriteLine($"Invalid line format: {line}");
-                continue;
+                string[] parts = line.Split(',');
+                if (parts.Length == 4)
+                {
+                    int id = int.Parse(parts[0]);
+                    string name = parts[1];
+                    decimal price = decimal.Parse(parts[2]);
+                    int quantity = int.Parse(parts[3]);
+                    products.Add(new Product(id, name, price, quantity));
+                }
             }
-
-            products.Add(new Product(id, parts[1], price, quantity));
+            return products;
         }
-
-        return products;
+        else
+        {
+            return new List<Product>();
+        }
     }
 
-    // Saves the current cart products to file
+    // Saves the cart to a file
     private void SaveCart()
     {
-        using (var writer = new StreamWriter(DataFile))
+        List<string> lines = new List<string>();
+        foreach (var product in _products)
         {
-            foreach (var product in _products)
-            {
-                writer.WriteLine($"{product.Id},{product.Name},{product.Price},{product.Quantity}");
-            }
+            lines.Add($"{product.Id},{product.Name},{product.Price},{product.Quantity}");
         }
+        File.WriteAllLines(DataFile, lines);
     }
 }
 

@@ -1,0 +1,8 @@
+Buyer Name: Moiz
+Buyer ID: c9b30e2d-f4b3-4df1-8929-2ab78dd58d76
+Products:
+ID: 1, Name: Alpha, Price: Rs10.00, Quantity: 10
+ID: 3, Name: Charlie, Price: Rs30.00, Quantity: 30
+ID: 4, Name: Delta, Price: Rs40.00, Quantity: 40
+Total Bill: Rs2,717.00
+Time of Purchase: 18/10/2024 8:24:31 pm
