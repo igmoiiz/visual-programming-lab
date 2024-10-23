@@ -1,0 +1,6 @@
+Buyer Name: Moiz
+Buyer ID: 364e56ea-a342-4314-8929-a9c0ad34c7bc
+Products:
+ID: 1, Name: Eggs, Price: Rs12.00, Quantity: 12
+Total Bill: Rs150.48
+Time of Purchase: 23/10/2024 12:33:54 pm
