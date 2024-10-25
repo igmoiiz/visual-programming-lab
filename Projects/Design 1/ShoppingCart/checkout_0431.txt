@@ -1,7 +1,0 @@
-Buyer ID: 0431
-Total Amount: Rs11,100.00
-Date: 18/10/2024 3:53:40 pm
-Products Purchased:
-ID: 1, Name: Alpha, Price: Rs1,100.00, Quantity: 2
-ID: 2, Name: Beta, Price: Rs1,200.00, Quantity: 3
-ID: 3, Name: Charlie, Price: Rs1,300.00, Quantity: 4
