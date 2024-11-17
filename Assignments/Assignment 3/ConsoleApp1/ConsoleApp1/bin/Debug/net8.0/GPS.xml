@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GPS_Log>
+	<Position DateTime="15/11/2024 10:09:06 pm">
+		<x>65.8973342</x>
+		<y>72.3452346</y>
+		<SatteliteInfo>
+			<Speed>40</Speed>
+			<NoSatt>7</NoSatt>
+		</SatteliteInfo>
+	</Position>
+	<Image Resolution="1024x800">
+		<Path>\images\1.jpg</Path>
+	</Image>
+</GPS_Log>
