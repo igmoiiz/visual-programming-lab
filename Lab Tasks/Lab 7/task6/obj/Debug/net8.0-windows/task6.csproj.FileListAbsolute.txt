@@ -1,0 +1,16 @@
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\bin\Debug\net8.0-windows\task6.exe
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\bin\Debug\net8.0-windows\task6.deps.json
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\bin\Debug\net8.0-windows\task6.runtimeconfig.json
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\bin\Debug\net8.0-windows\task6.dll
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\bin\Debug\net8.0-windows\task6.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.Form1.resources
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.csproj.GenerateResource.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.AssemblyInfoInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.AssemblyInfo.cs
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.csproj.CoreCompileInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.dll
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\refint\task6.dll
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\task6.genruntimeconfig.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\task6\obj\Debug\net8.0-windows\ref\task6.dll

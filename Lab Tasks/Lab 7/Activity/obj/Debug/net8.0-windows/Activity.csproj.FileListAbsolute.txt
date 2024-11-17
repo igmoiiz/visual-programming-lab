@@ -1,0 +1,16 @@
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\bin\Debug\net8.0-windows\Activity.exe
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\bin\Debug\net8.0-windows\Activity.deps.json
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\bin\Debug\net8.0-windows\Activity.runtimeconfig.json
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\bin\Debug\net8.0-windows\Activity.dll
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\bin\Debug\net8.0-windows\Activity.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.Form1.resources
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.csproj.GenerateResource.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.GeneratedMSBuildEditorConfig.editorconfig
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.AssemblyInfoInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.AssemblyInfo.cs
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.csproj.CoreCompileInputs.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.dll
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\refint\Activity.dll
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.pdb
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\Activity.genruntimeconfig.cache
+D:\university\university assingnments\Visual Programming Lab\Lab 7\Activity\obj\Debug\net8.0-windows\ref\Activity.dll
