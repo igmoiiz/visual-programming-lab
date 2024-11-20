@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Moaiz\\source\\repos\\Activity 01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1061DC2B-89C4-49C2-90B4-500EEFA84363}|Activity 01\\Activity 01.csproj|c:\\users\\moaiz\\source\\repos\\activity 01\\activity 01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1061DC2B-89C4-49C2-90B4-500EEFA84363}|Activity 01\\Activity 01.csproj|solutionrelative:activity 01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Moaiz\\source\\repos\\Activity 01\\Activity 01\\Program.cs",
+              "RelativeDocumentMoniker": "Activity 01\\Program.cs",
+              "ToolTip": "C:\\Users\\Moaiz\\source\\repos\\Activity 01\\Activity 01\\Program.cs",
+              "RelativeToolTip": "Activity 01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:04:04.811Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
