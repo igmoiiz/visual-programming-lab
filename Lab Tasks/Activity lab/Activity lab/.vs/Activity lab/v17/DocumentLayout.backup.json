@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abdul Wasay Sial\\Downloads\\wasay-sial-Lab-9-Activity-a06b473\\wasay-sial-Lab-9-Activity-a06b473\\Activity lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3122FF3D-841F-4E80-88FA-F05EEFBC4196}|Activity lab\\Activity lab.csproj|c:\\users\\abdul wasay sial\\downloads\\wasay-sial-lab-9-activity-a06b473\\wasay-sial-lab-9-activity-a06b473\\activity lab\\activity lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3122FF3D-841F-4E80-88FA-F05EEFBC4196}|Activity lab\\Activity lab.csproj|solutionrelative:activity lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Abdul Wasay Sial\\Downloads\\wasay-sial-Lab-9-Activity-a06b473\\wasay-sial-Lab-9-Activity-a06b473\\Activity lab\\Activity lab\\Form1.cs",
+              "RelativeDocumentMoniker": "Activity lab\\Form1.cs",
+              "ToolTip": "C:\\Users\\Abdul Wasay Sial\\Downloads\\wasay-sial-Lab-9-Activity-a06b473\\wasay-sial-Lab-9-Activity-a06b473\\Activity lab\\Activity lab\\Form1.cs [Design]",
+              "RelativeToolTip": "Activity lab\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:45:07.065Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

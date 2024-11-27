@@ -1,0 +1,25 @@
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\bin\Debug\Activity lab.exe.config
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\bin\Debug\Activity lab.exe
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\bin\Debug\Activity lab.pdb
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.AssemblyReference.cache
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.SuggestedBindingRedirects.cache
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity_lab.Form1.resources
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity_lab.Properties.Resources.resources
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.GenerateResource.cache
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.CoreCompileInputs.cache
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity lab.exe
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity lab.pdb
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity_lab.form_2.resources
+C:\Users\233511\Desktop\Lab 9 VP\Activity lab\Activity lab\obj\Debug\Activity_lab.Form3.resources
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\bin\Debug\Activity lab.exe.config
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\bin\Debug\Activity lab.exe
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\bin\Debug\Activity lab.pdb
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.AssemblyReference.cache
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity_lab.form_2.resources
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity_lab.Form1.resources
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity_lab.Form3.resources
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity_lab.Properties.Resources.resources
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.GenerateResource.cache
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity lab.csproj.CoreCompileInputs.cache
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity lab.exe
+C:\Users\Abdul Wasay Sial\Downloads\wasay-sial-Lab-9-Activity-a06b473\wasay-sial-Lab-9-Activity-a06b473\Activity lab\Activity lab\obj\Debug\Activity lab.pdb
