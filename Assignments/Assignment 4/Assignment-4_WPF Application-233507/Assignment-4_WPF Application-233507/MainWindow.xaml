@@ -1,0 +1,17 @@
+﻿<Window x:Class="CricketTeamManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cricket Team Manager" Height="350" Width="300">
+    <StackPanel Margin="10">
+        <TextBlock Text="Cricket Team Manager" FontSize="24" FontWeight="Bold" Margin="0,0,0,20" />
+
+        <TextBox x:Name="PlayerNameTextBox" Width="200" Margin="0,0,0,10" Text ="Enter player name" />
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button x:Name="AddPlayerButton" Content="Add Player" Width="100" Click="AddPlayerButton_Click" Margin="0,0,10,0" />
+            <Button x:Name="RemovePlayerButton" Content="Remove Player" Width="100" Click="RemovePlayerButton_Click" />
+        </StackPanel>
+
+        <ListBox x:Name="PlayersListBox" Height="150" />
+    </StackPanel>
+</Window>
