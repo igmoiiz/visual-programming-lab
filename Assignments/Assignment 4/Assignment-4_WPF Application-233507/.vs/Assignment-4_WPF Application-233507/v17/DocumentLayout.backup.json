@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Moaiz\\source\\repos\\Assignment-4_WPF Application-233507\\",
+  "WorkspaceRootPath": "D:\\Programming\\Visual Programming\\Assignments\\Assignment 4\\Assignment-4_WPF Application-233507\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F0C20687-F3F2-46CB-AD8F-7AA4882FA419}|Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507.csproj|c:\\users\\moaiz\\source\\repos\\assignment-4_wpf application-233507\\assignment-4_wpf application-233507\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{F0C20687-F3F2-46CB-AD8F-7AA4882FA419}|Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507.csproj|solutionrelative:assignment-4_wpf application-233507\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0C20687-F3F2-46CB-AD8F-7AA4882FA419}|Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507.csproj|c:\\users\\moaiz\\source\\repos\\assignment-4_wpf application-233507\\assignment-4_wpf application-233507\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0C20687-F3F2-46CB-AD8F-7AA4882FA419}|Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507.csproj|solutionrelative:assignment-4_wpf application-233507\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Visual Programming\\Assignments\\Assignment 4\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assignment-4_WPF Application-233507\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,24 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Moaiz\\source\\repos\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Assignment-4_WPF Application-233507\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Moaiz\\source\\repos\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml",
-              "RelativeToolTip": "Assignment-4_WPF Application-233507\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T10:27:53.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Moaiz\\source\\repos\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Assignments\\Assignment 4\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Assignment-4_WPF Application-233507\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Moaiz\\source\\repos\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Assignments\\Assignment 4\\Assignment-4_WPF Application-233507\\Assignment-4_WPF Application-233507\\MainWindow.xaml.cs",
               "RelativeToolTip": "Assignment-4_WPF Application-233507\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T10:27:49.931Z",
               "EditorCaption": ""

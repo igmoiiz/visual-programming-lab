@@ -1,0 +1,21 @@
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\bin\Debug\net8.0-windows\233507 - Lab 11- Activity.exe
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\bin\Debug\net8.0-windows\233507 - Lab 11- Activity.deps.json
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\bin\Debug\net8.0-windows\233507 - Lab 11- Activity.runtimeconfig.json
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\bin\Debug\net8.0-windows\233507 - Lab 11- Activity.dll
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\bin\Debug\net8.0-windows\233507 - Lab 11- Activity.pdb
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity_MarkupCompile.cache
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity_MarkupCompile.lref
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.g.resources
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.AssemblyInfo.cs
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.sourcelink.json
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.dll
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\refint\233507 - Lab 11- Activity.dll
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.pdb
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\233507 - Lab 11- Activity.genruntimeconfig.cache
+D:\Programming\Visual Programming\Projects\Design 2\233507 - Lab 11- Activity\233507 - Lab 11- Activity\obj\Debug\net8.0-windows\ref\233507 - Lab 11- Activity.dll

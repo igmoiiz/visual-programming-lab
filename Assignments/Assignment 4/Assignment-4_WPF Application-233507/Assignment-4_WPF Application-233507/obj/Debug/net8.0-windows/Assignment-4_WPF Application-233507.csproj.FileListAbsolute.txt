@@ -17,3 +17,23 @@ C:\Users\Moaiz\source\repos\Assignment-4_WPF Application-233507\Assignment-4_WPF
 C:\Users\Moaiz\source\repos\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.pdb
 C:\Users\Moaiz\source\repos\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.genruntimeconfig.cache
 C:\Users\Moaiz\source\repos\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\ref\Assignment-4_WPF Application-233507.dll
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\bin\Debug\net8.0-windows\Assignment-4_WPF Application-233507.exe
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\bin\Debug\net8.0-windows\Assignment-4_WPF Application-233507.deps.json
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\bin\Debug\net8.0-windows\Assignment-4_WPF Application-233507.runtimeconfig.json
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\bin\Debug\net8.0-windows\Assignment-4_WPF Application-233507.dll
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\bin\Debug\net8.0-windows\Assignment-4_WPF Application-233507.pdb
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507_MarkupCompile.cache
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.g.resources
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.AssemblyInfo.cs
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.sourcelink.json
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.dll
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\refint\Assignment-4_WPF Application-233507.dll
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.pdb
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\Assignment-4_WPF Application-233507.genruntimeconfig.cache
+D:\Programming\Visual Programming\Assignments\Assignment 4\Assignment-4_WPF Application-233507\Assignment-4_WPF Application-233507\obj\Debug\net8.0-windows\ref\Assignment-4_WPF Application-233507.dll

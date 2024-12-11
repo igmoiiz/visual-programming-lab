@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{656534ED-78D0-48B6-94FD-88822600DDD0}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{656534ED-78D0-48B6-94FD-88822600DDD0}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{656534ED-78D0-48B6-94FD-88822600DDD0}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{656534ED-78D0-48B6-94FD-88822600DDD0}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{656534ED-78D0-48B6-94FD-88822600DDD0}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{656534ED-78D0-48B6-94FD-88822600DDD0}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Inventory Management System\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Inventory Management System\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T16:39:22.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Inventory Management System\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Inventory Management System\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-08T16:49:05.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Inventory Management System\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Inventory Management System\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-08T16:44:12.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

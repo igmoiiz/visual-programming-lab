@@ -1,0 +1,20 @@
+﻿<Window x:Class="_233507___Lab_11__Activity.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_233507___Lab_11__Activity"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Image Height="250" Width="400" Source="C:\Users\Moaiz\Downloads\car 1.jpg"></Image>
+            <Image Height="250" Width="600" Source="C:\Users\Moaiz\Downloads\car 2.jpg"></Image>
+        </StackPanel>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="35,355,0,0" VerticalAlignment="Top" Checked="HandleChecked" Unchecked="HandleUnchecked"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="35,393,0,0" VerticalAlignment="Top" Checked="HandleChecked" Unchecked="HandleUnchecked" />
+        <TextBox TextWrapping="Wrap" Text="TextBox" Width="120" Margin="596,355,84,59" Name="text_box1"/>
+        <TextBox TextWrapping="Wrap" Text="TextBox" Width="120" Margin="596,388,84,26" Name="text_box2"/>
+
+    </Grid>
+</Window>
