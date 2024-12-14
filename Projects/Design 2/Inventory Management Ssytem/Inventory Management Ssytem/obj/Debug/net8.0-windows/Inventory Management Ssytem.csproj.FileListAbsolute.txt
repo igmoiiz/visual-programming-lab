@@ -1,0 +1,26 @@
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\bin\Debug\net8.0-windows\Inventory Management Ssytem.exe
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\bin\Debug\net8.0-windows\Inventory Management Ssytem.deps.json
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\bin\Debug\net8.0-windows\Inventory Management Ssytem.runtimeconfig.json
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\bin\Debug\net8.0-windows\Inventory Management Ssytem.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\bin\Debug\net8.0-windows\Inventory Management Ssytem.pdb
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\HomePage.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\InventoryTracking.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\SignUpForm.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\HomePage.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\InventoryTracking.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\SignUpForm.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem_MarkupCompile.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.g.resources
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.AssemblyInfo.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.sourcelink.json
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\refint\Inventory Management Ssytem.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.pdb
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\Inventory Management Ssytem.genruntimeconfig.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management Ssytem\Inventory Management Ssytem\obj\Debug\net8.0-windows\ref\Inventory Management Ssytem.dll
