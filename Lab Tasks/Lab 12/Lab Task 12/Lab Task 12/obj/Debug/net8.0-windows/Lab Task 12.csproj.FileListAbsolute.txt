@@ -1,0 +1,20 @@
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\bin\Debug\net8.0-windows\Lab Task 12.exe
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\bin\Debug\net8.0-windows\Lab Task 12.deps.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\bin\Debug\net8.0-windows\Lab Task 12.runtimeconfig.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\bin\Debug\net8.0-windows\Lab Task 12.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\bin\Debug\net8.0-windows\Lab Task 12.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12_MarkupCompile.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.g.resources
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.AssemblyInfo.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.sourcelink.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\refint\Lab Task 12.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\Lab Task 12.genruntimeconfig.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab Task 12\Lab Task 12\obj\Debug\net8.0-windows\ref\Lab Task 12.dll
