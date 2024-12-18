@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system - design 2\\inventory management system - design 2\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{456B6440-921E-4DFC-A864-01F26B6A5861}|Inventory Management System - Design 2\\Inventory Management System - Design 2.csproj|solutionrelative:inventory management system - design 2\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\MainWindow.xaml",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\MainWindow.xaml",
+              "RelativeToolTip": "Inventory Management System - Design 2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T07:46:24.06Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\App.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\App.xaml.cs",
+              "RelativeToolTip": "Inventory Management System - Design 2\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:39:39.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\App.xaml",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\App.xaml",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\App.xaml",
+              "RelativeToolTip": "Inventory Management System - Design 2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T14:39:35.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\ProductsPage.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "Inventory Management System - Design 2\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T14:38:05.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\ProductsPage.xaml",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\ProductsPage.xaml",
+              "RelativeToolTip": "Inventory Management System - Design 2\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T14:34:41.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Inventory Management System - Design 2\\LoginPage.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:13:44.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignUpPage.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\SignUpPage.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\SignUpPage.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\SignUpPage.xaml.cs",
+              "RelativeToolTip": "Inventory Management System - Design 2\\SignUpPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:01:49.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\LoginPage.xaml",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\LoginPage.xaml",
+              "RelativeToolTip": "Inventory Management System - Design 2\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T08:57:54.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUpPage.xaml",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\SignUpPage.xaml",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\SignUpPage.xaml",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\SignUpPage.xaml",
+              "RelativeToolTip": "Inventory Management System - Design 2\\SignUpPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T08:57:40.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Inventory Management System - Design 2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:46:21.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Inventory Management System - Design 2\\DatabaseHelper.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System - Design 2\\Inventory Management System - Design 2\\DatabaseHelper.cs",
+              "RelativeToolTip": "Inventory Management System - Design 2\\DatabaseHelper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T07:47:49.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

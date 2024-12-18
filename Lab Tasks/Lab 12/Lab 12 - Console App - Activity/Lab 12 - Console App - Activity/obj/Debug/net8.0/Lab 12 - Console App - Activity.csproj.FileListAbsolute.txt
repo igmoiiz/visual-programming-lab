@@ -1,0 +1,15 @@
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\bin\Debug\net8.0\Lab 12 - Console App - Activity.exe
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\bin\Debug\net8.0\Lab 12 - Console App - Activity.deps.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\bin\Debug\net8.0\Lab 12 - Console App - Activity.runtimeconfig.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\bin\Debug\net8.0\Lab 12 - Console App - Activity.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\bin\Debug\net8.0\Lab 12 - Console App - Activity.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.AssemblyInfo.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.sourcelink.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\refint\Lab 12 - Console App - Activity.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\Lab 12 - Console App - Activity.genruntimeconfig.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console App - Activity\Lab 12 - Console App - Activity\obj\Debug\net8.0\ref\Lab 12 - Console App - Activity.dll

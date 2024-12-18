@@ -1,0 +1,15 @@
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\bin\Debug\net8.0\Lab 12 - Console Application 2.exe
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\bin\Debug\net8.0\Lab 12 - Console Application 2.deps.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\bin\Debug\net8.0\Lab 12 - Console Application 2.runtimeconfig.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\bin\Debug\net8.0\Lab 12 - Console Application 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\bin\Debug\net8.0\Lab 12 - Console Application 2.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.AssemblyInfo.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.sourcelink.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\refint\Lab 12 - Console Application 2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\Lab 12 - Console Application 2.genruntimeconfig.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12\Lab 12 - Console Application 2\Lab 12 - Console Application 2\obj\Debug\net8.0\ref\Lab 12 - Console Application 2.dll

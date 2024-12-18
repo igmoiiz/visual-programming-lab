@@ -1,0 +1,20 @@
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\bin\Debug\net8.0-windows\Lab 12 - Activity.exe
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\bin\Debug\net8.0-windows\Lab 12 - Activity.deps.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\bin\Debug\net8.0-windows\Lab 12 - Activity.runtimeconfig.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\bin\Debug\net8.0-windows\Lab 12 - Activity.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\bin\Debug\net8.0-windows\Lab 12 - Activity.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity_MarkupCompile.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.g.resources
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.AssemblyInfo.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.sourcelink.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\refint\Lab 12 - Activity.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\Lab 12 - Activity.genruntimeconfig.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 12 - Activity\Lab 12 - Activity\obj\Debug\net8.0-windows\ref\Lab 12 - Activity.dll
