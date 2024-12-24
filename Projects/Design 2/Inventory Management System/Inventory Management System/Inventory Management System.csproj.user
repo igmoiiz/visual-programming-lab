@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AuditLogs.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="BarcodeScanning.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CustomerManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DashboardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HelpAndSupport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InterfacePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InventoryTracking.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NotificationsCenter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProductsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PurchaseOrderManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReorderAlerts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportsAndAnalytics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalesOrderManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Settings.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StockMovement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SupplierManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AuditLogs.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="BarcodeScanning.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomerManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DashboardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HelpAndSupport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InterfacePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InventoryTracking.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NotificationsCenter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchaseOrderManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReorderAlerts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportsAndAnalytics.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalesOrderManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Settings.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StockMovement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SupplierManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

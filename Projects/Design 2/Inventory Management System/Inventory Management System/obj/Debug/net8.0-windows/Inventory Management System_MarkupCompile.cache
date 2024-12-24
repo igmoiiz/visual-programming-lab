@@ -1,0 +1,20 @@
+﻿Inventory Management System
+
+
+winexe
+C#
+.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\
+Inventory_Management_System
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\App.xaml
+19-730861902
+
+24-598040796
+206317765333
+AuditLogs.xaml;BarcodeScanning.xaml;CustomerManagement.xaml;DashboardPage.xaml;HelpAndSupport.xaml;InterfacePage.xaml;InventoryTracking.xaml;LoginPage.xaml;MainWindow.xaml;NotificationsCenter.xaml;ProductsPage.xaml;PurchaseOrderManagement.xaml;ReorderAlerts.xaml;ReportsAndAnalytics.xaml;SalesOrderManagement.xaml;Settings.xaml;StockMovement.xaml;SupplierManagement.xaml;UserManagement.xaml;
+
+True
+

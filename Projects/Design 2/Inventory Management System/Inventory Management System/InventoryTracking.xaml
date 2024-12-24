@@ -1,0 +1,61 @@
+﻿<Window x:Class="Inventory_Management_System.InventoryTracking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inventory Tracking" Height="600" Width="800" Background="White">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Inventory Tracking" FontSize="24" FontWeight="Bold" Foreground="Green" Margin="0,0,0,20" HorizontalAlignment="Center" Grid.RowSpan="2"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="0,10,20,0">
+                <TextBlock Text="Select Product:"/>
+                <ComboBox Name="ProductComboBox" Margin="0,0,0,10" SelectionChanged="ProductComboBox_SelectionChanged"/>
+
+                <TextBlock Text="Stock Levels by Location:" FontWeight="Bold" Margin="0,10,0,5"/>
+                <ListView Name="LocationStockListView" Margin="0,0,0,10">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Location" Width="100" DisplayMemberBinding="{Binding LocationName}"/>
+                            <GridViewColumn Header="Quantity" Width="80" DisplayMemberBinding="{Binding Quantity}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <TextBlock Text="Batch/Serial Tracking:" FontWeight="Bold" Margin="0,10,0,5"/>
+                <ListView Name="BatchSerialListView">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Batch Number" Width="100" DisplayMemberBinding="{Binding BatchNumber}"/>
+                            <GridViewColumn Header="Serial Number" Width="100" DisplayMemberBinding="{Binding SerialNumber}"/>
+                            <GridViewColumn Header="Quantity" Width="80" DisplayMemberBinding="{Binding Quantity}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Margin="10,54,0,0">
+                <TextBlock Text="Recent Stock Movements:" FontWeight="Bold" Margin="0,0,0,5"/>
+                <ListView Name="StockMovementListView">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Date" Width="120" DisplayMemberBinding="{Binding MovementDate}"/>
+                            <GridViewColumn Header="Product" Width="150" DisplayMemberBinding="{Binding ProductName}"/>
+                            <GridViewColumn Header="Movement Type" Width="100" DisplayMemberBinding="{Binding MovementType}"/>
+                            <GridViewColumn Header="Quantity" Width="80" DisplayMemberBinding="{Binding Quantity}"/>
+                            <GridViewColumn Header="Description" Width="200" DisplayMemberBinding="{Binding Description}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
