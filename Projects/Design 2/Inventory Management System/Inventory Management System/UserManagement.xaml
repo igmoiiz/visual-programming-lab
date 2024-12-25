@@ -1,42 +1,50 @@
 ﻿<Window x:Class="Inventory_Management_System.UserManagement"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Inventory_Management_System" Background="White">
-    <Window.Resources>
-        <local:LengthToVisibilityConverter x:Key="LengthToVisibilityConverter"/>
-    </Window.Resources>
-
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User  Management" Height="600" Width="800" Background="White">
     <Grid>
-        <TextBlock Text="User  Management" FontSize="24" FontWeight="Bold" Margin="10" Foreground="Green"/>
+        <StackPanel Margin="20">
+            <TextBlock Text="User  Management" FontSize="24" FontWeight="Bold" Foreground="Green" Margin="0,0,0,20"/>
 
-        <Grid Margin="10">
-            <TextBox Name="UsernameTextBox" Width="200" Margin="0,0,0,30"/>
-            <TextBlock Text="Username" Foreground="Gray" Margin="5,0,0,0" VerticalAlignment="Center" IsHitTestVisible="False" 
-                       Visibility="{Binding ElementName=UsernameTextBox, Path=Text.Length, Converter={StaticResource LengthToVisibilityConverter}}"/>
-        </Grid>
+            <TextBlock Text="Add / Edit User" FontSize="18" FontWeight="Bold" Foreground="Green" Margin="0,10,0,5"/>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,20">
+                <Label Content="Username:"/>
+                <TextBox x:Name="UsernameTextBox" Width="300" Margin="0,0,0,10"/>
 
-        <Grid Margin="10,50,10,0">
-            <TextBox Name="PasswordTextBox" Width="200" Margin="0,0,0,30"/>
-            <TextBlock Text="Password" Foreground="Gray" Margin="5,0,0,0" VerticalAlignment="Center" IsHitTestVisible="False" 
-                       Visibility="{Binding ElementName=PasswordTextBox, Path=Text.Length, Converter={StaticResource LengthToVisibilityConverter}}"/>
-        </Grid>
+                <Label Content="Password:"/>
+                <PasswordBox x:Name="PasswordBox" Width="300" Margin="0,0,0,10"/>
 
-        <ComboBox Name="RoleComboBox" Width="200" Margin="10,100,10,0">
-            <ComboBoxItem Content="Admin"/>
-            <ComboBoxItem Content="Manager"/>
-            <ComboBoxItem Content="Staff"/>
-        </ComboBox>
+                <Label Content="Role:"/>
+                <ComboBox x:Name="RoleComboBox" Width="300" Margin="0,0,0,10">
+                    <ComboBoxItem Content="Admin"/>
+                    <ComboBoxItem Content="Manager"/>
+                    <ComboBoxItem Content="Staff"/>
+                </ComboBox>
 
-        <Button Content="Add User" Click="AddUser_Click" Margin="10,150,10,10" Background="Green" Foreground="White"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button Content="Add User" Click="AddUser_Click" Background="Green" Foreground="White" Width="100" Margin="0,0,10,0"/>
+                    <Button Content="Update User" Click="UpdateUser_Click" Background="Green" Foreground="White" Width="100" Margin="0,0,10,0"/>
+                    <Button Content="Delete User" Click="DeleteUser_Click" Background="Green" Foreground="White" Width="100"/>
+                </StackPanel>
+            </StackPanel>
 
-        <ListView Name="UserListView" Margin="10,200,10,10">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="ID" Width="50" DisplayMemberBinding="{Binding Id}"/>
-                    <GridViewColumn Header="Username" Width="150" DisplayMemberBinding="{Binding Username}"/>
-                    <GridViewColumn Header="Role" Width="100" DisplayMemberBinding="{Binding Role}"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+            <TextBlock Text="User  List" FontSize="18" FontWeight="Bold" Foreground="Green" Margin="0,10,0,5"/>
+            <DataGrid x:Name="UserDataGrid" AutoGenerateColumns="False" Height="200" Margin="0,0,0,20" SelectionMode="Single" SelectionUnit="FullRow">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Username" Binding="{Binding Username}" Width="*"/>
+                    <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="*"/>
+                    <DataGridTextColumn Header="Created At" Binding="{Binding CreatedAt}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <TextBlock Text="Audit Logs" FontSize="18" FontWeight="Bold" Foreground="Green" Margin="0,10,0,5"/>
+            <DataGrid x:Name="AuditLogDataGrid" AutoGenerateColumns="False" Height="200" Margin="0,0,0,20">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Action" Binding="{Binding Action}" Width="*"/>
+                    <DataGridTextColumn Header="Table Affected" Binding="{Binding TableAffected}" Width="*"/>
+                    <DataGridTextColumn Header="Action Time" Binding="{Binding ActionTime}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
     </Grid>
-    </Window>
+</Window>

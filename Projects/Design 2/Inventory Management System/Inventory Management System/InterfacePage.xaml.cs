@@ -62,7 +62,7 @@ namespace Inventory_Management_System
 
 		private void ReportsAndAnalyticsButton_Click(object sender, RoutedEventArgs e)
 		{
-			ReportsAndAnalytics reportAndAnalytics = new ReportsAndAnalytics();
+			ReportAndAnalytics reportAndAnalytics = new();
 			reportAndAnalytics.Show();
 		}
 

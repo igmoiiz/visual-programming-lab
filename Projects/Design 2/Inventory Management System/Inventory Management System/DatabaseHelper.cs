@@ -9,13 +9,21 @@ namespace Inventory_Management_System
 	{
 		public string ConnectionString = "server=localhost;database=InventoryManagement;user=root;password=332211Asdfghjkl;";
 
-		public DataTable ExecuteQuery(string query)
+		public DataTable ExecuteQuery(string query, object parameters = null)
 		{
 			try
 			{
 				using (MySqlConnection conn = new MySqlConnection(ConnectionString))
 				{
 					MySqlCommand cmd = new MySqlCommand(query, conn);
+					if (parameters != null)
+					{
+						// Assuming parameters is an anonymous object
+						foreach (var prop in parameters.GetType().GetProperties())
+						{
+							cmd.Parameters.AddWithValue("@" + prop.Name, prop.GetValue(parameters));
+						}
+					}
 					MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
 					DataTable dt = new DataTable();
 					conn.Open();
@@ -44,7 +52,6 @@ namespace Inventory_Management_System
 					conn.Open();
 					if (parameters != null)
 					{
-						// Assuming parameters is an anonymous object
 						foreach (var prop in parameters.GetType().GetProperties())
 						{
 							cmd.Parameters.AddWithValue("@" + prop.Name, prop.GetValue(parameters));

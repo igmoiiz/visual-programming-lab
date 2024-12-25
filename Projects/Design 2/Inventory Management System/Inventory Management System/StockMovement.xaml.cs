@@ -1,47 +1,67 @@
-﻿using System.Data;
+﻿using System;
+using System.Data;
 using System.Windows;
 using System.Windows.Controls;
+using MySql.Data.MySqlClient;
 
 namespace Inventory_Management_System
 {
 	public partial class StockMovement : Window
 	{
-		private DatabaseHelper dbHelper = new DatabaseHelper();
+		private DatabaseHelper _dbHelper;
 
 		public StockMovement()
 		{
 			InitializeComponent();
-			LoadStockMovements();
+			_dbHelper = new DatabaseHelper();
+			LoadProducts();
 		}
 
-		private void LoadStockMovements()
+		private void LoadProducts()
 		{
-			string query = "SELECT Id, ProductId, Quantity, MovementType FROM StockMovements";
-			StockMovementListView.ItemsSource = dbHelper.ExecuteQuery(query).DefaultView;
-		}
-
-		private void RecordStockIn_Click(object sender, System.Windows.RoutedEventArgs e)
-		{
-			RecordStockMovement("IN");
-		}
-
-		private void RecordStockOut_Click(object sender, System.Windows.RoutedEventArgs e)
-		{
-			RecordStockMovement("OUT");
-		}
-
-		private void RecordStockMovement(string movementType)
-		{
-			int productId;
-			int quantity;
-			if (int.TryParse(ProductIdTextBox.Text, out productId) && int.TryParse(MovementQuantityTextBox.Text, out quantity))
+			string query = "SELECT ProductID, Name FROM Products";
+			DataTable products = _dbHelper.ExecuteQuery(query);
+			if (products != null)
 			{
-				string query = $"INSERT INTO StockMovements (ProductId, Quantity, MovementType) VALUES ({productId}, {quantity}, '{movementType}')";
-				dbHelper.ExecuteNonQuery(query);
-				LoadStockMovements();
-				ProductIdTextBox.Clear();
-				MovementQuantityTextBox.Clear();
+				ProductComboBox.ItemsSource = products.DefaultView;
+				ProductComboBox.DisplayMemberPath = "Name";
+				ProductComboBox.SelectedValuePath = "ProductID";
 			}
+		}
+
+		private void RecordMovement_Click(object sender, RoutedEventArgs e)
+		{
+			if (ProductComboBox.SelectedValue == null || string.IsNullOrEmpty(QuantityTextBox.Text))
+			{
+				MessageBox.Show("Please select a product and enter a quantity.");
+				return;
+			}
+
+			int productId = (int)ProductComboBox.SelectedValue;
+			string movementType = ((ComboBoxItem)MovementTypeComboBox.SelectedItem).Content.ToString();
+			int quantity = int.Parse(QuantityTextBox.Text);
+			string description = DescriptionTextBox.Text;
+
+			string query = "INSERT INTO StockMovements (ProductID, MovementType, Quantity, Description) VALUES (@ProductID, @MovementType, @Quantity, @Description)";
+			var parameters = new
+			{
+				ProductID = productId,
+				MovementType = movementType,
+				Quantity = quantity,
+				Description = description
+			};
+
+			_dbHelper.ExecuteNonQuery(query, parameters);
+			StatusTextBlock.Text = "Stock movement recorded successfully!";
+			ClearFields();
+		}
+
+		private void ClearFields()
+		{
+			ProductComboBox.SelectedIndex = -1;
+			MovementTypeComboBox.SelectedIndex = -1;
+			QuantityTextBox.Clear();
+			DescriptionTextBox.Clear();
 		}
 	}
 }

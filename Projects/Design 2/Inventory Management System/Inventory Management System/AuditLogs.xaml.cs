@@ -1,27 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
 
 namespace Inventory_Management_System
 {
-	/// <summary>
-	/// Interaction logic for AuditLogs.xaml
-	/// </summary>
 	public partial class AuditLogs : Window
 	{
+		private DatabaseHelper _dbHelper;
+
 		public AuditLogs()
 		{
 			InitializeComponent();
+			_dbHelper = new DatabaseHelper();
+			LoadAuditLogs();
+		}
+
+		private void LoadAuditLogs()
+		{
+			string query = "SELECT UserID, Action, TableAffected, ActionTime, Description FROM AuditLogs ORDER BY ActionTime DESC";
+			DataTable auditLogs = _dbHelper.ExecuteQuery(query);
+			if (auditLogs != null)
+			{
+				AuditLogDataGrid.ItemsSource = auditLogs.DefaultView;
+			}
+			else
+			{
+				StatusTextBlock.Text = "No audit logs found.";
+			}
 		}
 	}
 }

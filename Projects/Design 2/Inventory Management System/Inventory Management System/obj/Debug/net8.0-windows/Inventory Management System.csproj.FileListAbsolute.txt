@@ -71,3 +71,76 @@ D:\Programming\Visual Programming\Lab Tasks\Lab 12\Inventory Management System\I
 D:\Programming\Visual Programming\Lab Tasks\Lab 12\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.genruntimeconfig.cache
 D:\Programming\Visual Programming\Lab Tasks\Lab 12\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ref\Inventory Management System.dll
 D:\Programming\Visual Programming\Lab Tasks\Lab 12\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\Inventory Management System.exe
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\Inventory Management System.deps.json
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\Inventory Management System.runtimeconfig.json
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\Inventory Management System.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\Inventory Management System.pdb
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.csproj.AssemblyReference.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\DashboardPage.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\InterfacePage.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\InventoryTracking.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ProductsPage.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\PurchaseOrderManagement.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ReportsAndAnalytics.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\SalesOrderManagement.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\StockMovement.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\SupplierManagement.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\AuditLogs.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\BarcodeScanning.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\CustomerManagement.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\DashboardPage.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\HelpAndSupport.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\InterfacePage.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\InventoryTracking.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\LoginPage.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\NotificationsCenter.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ProductsPage.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\PurchaseOrderManagement.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ReorderAlerts.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ReportsAndAnalytics.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\SalesOrderManagement.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Settings.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\StockMovement.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\SupplierManagement.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\UserManagement.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\App.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System_MarkupCompile.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System_MarkupCompile.lref
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\AuditLogs.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\BarcodeScanning.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\CustomerManagement.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\HelpAndSupport.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\LoginPage.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\NotificationsCenter.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ReorderAlerts.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Settings.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\UserManagement.baml
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.g.resources
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.AssemblyInfo.cs
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.sourcelink.json
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventor.6904B46F.Up2Date
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\refint\Inventory Management System.dll
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.pdb
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\Inventory Management System.genruntimeconfig.cache
+D:\Programming\Visual Programming\Projects\Design 2\Inventory Management System\Inventory Management System\obj\Debug\net8.0-windows\ref\Inventory Management System.dll
