@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Inventory_Management_System.CustomerManagement"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Customer Management" Height="400" Width="800" Background="White">
+        Title="Customer Management" Height="400" Width="800" Background="#D2B48C">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
@@ -10,8 +10,8 @@
             <!-- For Customer List -->
         </Grid.ColumnDefinitions>
 
-        <StackPanel Margin="20" Background="WhiteSmoke" VerticalAlignment="Top">
-            <TextBlock Text="Add Customer" FontSize="20" FontWeight="Bold" Foreground="Green" Margin="0,0,0,10"/>
+        <StackPanel Margin="10,0,485,0" Background="#D2B48C" VerticalAlignment="Center" Height="376" Grid.ColumnSpan="2">
+            <TextBlock Text="Add Customer" FontSize="20" FontWeight="Bold" Foreground="#8B4513" Margin="0,0,0,10" Background="#D2B48C"/>
 
             <Label Content="Customer Name:"/>
             <TextBox x:Name="CustomerNameTextBox" Width="250" Margin="0,0,0,10"/>
@@ -29,12 +29,12 @@
             <TextBox x:Name="AddressTextBox" Width="250" Height="60" Margin="0,0,0,10" TextWrapping="Wrap"/>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
-                <Button Content="Add" Width="100" Click="AddCustomer_Click" Background="Green" Foreground="White" Margin="0,0,10,0"/>
-                <Button Content="Update" Width="100" Click="UpdateCustomer_Click" Background="Green" Foreground="White" Margin="0,0,10,0"/>
-                <Button Content="Delete" Width="100" Click="DeleteCustomer_Click" Background="Green" Foreground="White"/>
+                <Button Content="Add" Width="100" Click="AddCustomer_Click" Background="#8B4513" Foreground="White" Margin="0,0,10,0" Height="21"/>
+                <Button Content="Update" Width="100" Click="UpdateCustomer_Click" Background="#8B4513" Foreground="White" Margin="0,0,10,0"/>
+                <Button Content="Delete" Width="100" Click="DeleteCustomer_Click" Background="#8B4513" Foreground="White"/>
             </StackPanel>
 
-            <TextBlock x:Name="StatusTextBlock" Foreground="Green" Margin="0,20,0,0"/>
+            <TextBlock x:Name="StatusTextBlock" Foreground="#8B4513" Margin="0,20,0,0"/>
         </StackPanel>
 
         <DataGrid x:Name="CustomerDataGrid" AutoGenerateColumns="False" Grid.Column="1" Margin="20,20,20,20" 

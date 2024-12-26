@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Inventory_Management_System.ReorderAlerts"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Reorder Alerts" Height="600" Width="800" Background="White">
+        Title="Reorder Alerts" Height="600" Width="800" Background="#D2B48C">
     <Grid>
         <StackPanel Margin="20">
             <TextBlock Text="Reorder Alerts" FontSize="24" FontWeight="Bold" Foreground="Green" Margin="0,0,0,20"/>

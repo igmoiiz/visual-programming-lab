@@ -1,6 +1,7 @@
 ﻿<Window x:Class="Inventory_Management_System.SupplierManagement"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="#D2B48C"
         Title="Supplier Management" Height="400" Width="600">
     <Grid>
         <Grid.RowDefinitions>

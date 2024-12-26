@@ -1,15 +1,15 @@
 ﻿<Window x:Class="Inventory_Management_System.BarcodeScanning"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Barcode Scanning" Height="400" Width="600" Background="White">
+        Title="Barcode Scanning" Height="400" Width="600" Background="#D2B48C">
     <Grid>
         <StackPanel Margin="20">
-            <TextBlock Text="Barcode Scanning" FontSize="24" FontWeight="Bold" Foreground="Green" Margin="0,0,0,20"/>
+            <TextBlock Text="Barcode Scanning" FontSize="24" FontWeight="Bold" Foreground="#8B4513" Margin="0,0,0,20"/>
 
-            <TextBlock Text="Scan or Enter Barcode:" FontSize="18" Foreground="Green" Margin="0,10,0,5"/>
+            <TextBlock Text="Scan or Enter Barcode:" FontSize="18" Foreground="#8B4513" Margin="0,10,0,5"/>
             <TextBox x:Name="BarcodeTextBox" Width="300" Margin="0,0,0,20" KeyDown="BarcodeTextBox_KeyDown"/>
 
-            <Button Content="Search Product" Click="SearchProduct_Click" Background="Green" Foreground="White" Width="150" Margin="0,0,0,20"/>
+            <Button Content="Search Product" Click="SearchProduct_Click" Background="#8B4513" Foreground="White" Width="150" Margin="0,0,0,20"/>
 
             <TextBlock x:Name="ProductInfoTextBlock" FontSize="16" Foreground="Black" Margin="0,10,0,0"/>
         </StackPanel>

@@ -1,6 +1,7 @@
 ﻿<Window x:Class="Inventory_Management_System.StockMovement"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="#D2B48C"
         Title="Stock Movement" Height="400" Width="600">
     <Grid>
         <StackPanel Margin="20">
@@ -22,9 +23,9 @@
             <Label Content="Description:"/>
             <TextBox x:Name="DescriptionTextBox" Width="200" Height="60" Margin="0,0,0,10" TextWrapping="Wrap"/>
 
-            <Button Content="Record Movement" Width="200" Click="RecordMovement_Click"/>
+            <Button Content="Record Movement" Width="200" Click="RecordMovement_Click" Background="#8B4513" Foreground="White"/>
 
-            <TextBlock x:Name="StatusTextBlock" Foreground="Green" Margin="0,20,0,0"/>
+            <TextBlock x:Name="StatusTextBlock" Foreground="#8B4513" Margin="0,20,0,0"/>
         </StackPanel>
     </Grid>
 </Window>
