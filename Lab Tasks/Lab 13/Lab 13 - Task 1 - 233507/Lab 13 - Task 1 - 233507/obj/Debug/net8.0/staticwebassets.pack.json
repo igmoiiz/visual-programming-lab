@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 13\\Lab 13 - Task 1 - 233507\\Lab 13 - Task 1 - 233507\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Lab_13_-_Task_1_-_233507.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Lab_13_-_Task_1_-_233507.eis0p4n4dx.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 13\\Lab 13 - Task 1 - 233507\\Lab 13 - Task 1 - 233507\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 13\\Lab 13 - Task 1 - 233507\\Lab 13 - Task 1 - 233507\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 13\\Lab 13 - Task 1 - 233507\\Lab 13 - Task 1 - 233507\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 13\\Lab 13 - Task 1 - 233507\\Lab 13 - Task 1 - 233507\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab_13_-_Task_1_-_233507.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Lab_13_-_Task_1_-_233507.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Lab_13_-_Task_1_-_233507.props",
+      "PackagePath": "build\\Lab_13_-_Task_1_-_233507.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Lab_13_-_Task_1_-_233507.props",
+      "PackagePath": "buildMultiTargeting\\Lab_13_-_Task_1_-_233507.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Lab_13_-_Task_1_-_233507.props",
+      "PackagePath": "buildTransitive\\Lab_13_-_Task_1_-_233507.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

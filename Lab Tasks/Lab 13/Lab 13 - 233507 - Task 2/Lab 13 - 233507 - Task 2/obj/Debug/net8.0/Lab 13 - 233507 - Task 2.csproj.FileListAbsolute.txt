@@ -1,0 +1,34 @@
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\appsettings.Development.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\appsettings.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.staticwebassets.runtime.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.staticwebassets.endpoints.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.exe
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.deps.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.runtimeconfig.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\bin\Debug\net8.0\Lab_13_-_233507_-_Task_2.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab 13 - 233507 - Task 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab 13 - 233507 - Task 2.AssemblyInfoInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab 13 - 233507 - Task 2.AssemblyInfo.cs
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab 13 - 233507 - Task 2.csproj.CoreCompileInputs.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab_13_-_233507_-_Task_2.MvcApplicationPartsAssemblyInfo.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab 13 - 233507 - Task 2.sourcelink.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\scopedcss\bundle\Lab_13_-_233507_-_Task_2.styles.css
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\scopedcss\projectbundle\Lab_13_-_233507_-_Task_2.bundle.scp.css
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets.build.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets.development.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets\msbuild.Lab_13_-_233507_-_Task_2.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets\msbuild.Lab_13_-_233507_-_Task_2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets\msbuild.build.Lab_13_-_233507_-_Task_2.props
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Lab_13_-_233507_-_Task_2.props
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Lab_13_-_233507_-_Task_2.props
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab_13_-_233507_-_Task_2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\refint\Lab_13_-_233507_-_Task_2.dll
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab_13_-_233507_-_Task_2.pdb
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\Lab 13 - 233507 - Task 2.genruntimeconfig.cache
+D:\Programming\Visual Programming\Lab Tasks\Lab 13\Lab 13 - 233507 - Task 2\Lab 13 - 233507 - Task 2\obj\Debug\net8.0\ref\Lab_13_-_233507_-_Task_2.dll
