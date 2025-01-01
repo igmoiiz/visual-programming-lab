@@ -1,0 +1,165 @@
+﻿@page "/Server"
+
+<h3>Server</h3>
+<h4>Server List</h4>
+<input @bind="searchTerm" placeholder="Search servers..." />
+<button @onclick="SearchServers">Search</button>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (filteredServers.Any())
+        {
+            @foreach (var server in filteredServers)
+            {
+                <tr>
+                    <td>@server.Id</td>
+                    <td>@server.Name</td>
+                    <td>@server.City</td>
+                    <td>@(server.IsOnline ? "Online" : "Offline")</td>
+                    <td>
+                        <button @onclick="() => EditServer(server.Id)">Edit</button>
+                        <button @onclick="() => DeleteServer(server.Id)">Delete</button>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No servers found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h4>Add Server</h4>
+<input @bind="newServer.Name" placeholder="Server Name" />
+<input @bind="newServer.City" placeholder="City" />
+<button @onclick="AddServer">Add</button>
+
+@code {
+
+    private string searchTerm = string.Empty;
+    private List<ServerModel> filteredServers = ServersRepository.GetServers();
+    private ServerModel newServer = new ServerModel();
+
+    private void SearchServers()
+    {
+        if (string.IsNullOrWhiteSpace(searchTerm))
+        {
+            filteredServers = ServersRepository.GetServers();
+        }
+        else
+        {
+            filteredServers = ServersRepository.SearchServers(searchTerm);
+        }
+    }
+
+    private void AddServer()
+    {
+        if (!string.IsNullOrWhiteSpace(newServer.Name) && !string.IsNullOrWhiteSpace(newServer.City))
+        {
+            ServersRepository.AddServer(newServer);
+            newServer = new ServerModel(); // Reset the form
+            filteredServers = ServersRepository.GetServers(); // Refresh the list
+        }
+    }
+
+    private void EditServer(int serverId)
+    {
+        var server = ServersRepository.GetServerById(serverId);
+        if (server != null)
+        {
+            // Logic to edit the server (not implemented here)
+        }
+    }
+
+    private void DeleteServer(int serverId)
+    {
+        ServersRepository.DeleteServer(serverId);
+        filteredServers = ServersRepository.GetServers();
+    }
+
+    public class ServerModel
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string City { get; set; } = string.Empty;
+        public bool IsOnline { get; set; } = false;
+    }
+
+    public static class ServersRepository
+    {
+        private static List<ServerModel> servers = new List<ServerModel>()
+        {
+            new ServerModel {  Id = 1, Name = "Server1", City = "Toronto" },
+            new ServerModel {  Id = 2, Name = "Server2", City = "Toronto" },
+            new ServerModel {  Id = 3, Name = "Server3", City = "Toronto" },
+            new ServerModel {  Id = 4, Name = "Server4", City = "Toronto" },
+            new ServerModel {  Id = 5, Name = "Server5", City = "Montreal" },
+            new ServerModel {  Id = 6, Name = "Server6", City = "Montreal" },
+            new ServerModel {  Id = 7, Name = "Server7", City = "Montreal" },
+            new ServerModel {  Id = 8, Name = "Server8", City = "Ottawa" },
+            new ServerModel {  Id = 9, Name = "Server9", City = "Ottawa" },
+            new ServerModel {  Id = 10, Name = "Server10", City = "Calgary" },
+            new ServerModel {  Id = 11, Name = "Server11", City = "Calgary" },
+            new ServerModel {  Id = 12, Name = "Server12", City = "Halifax" },
+            new ServerModel {  Id = 13, Name = "Server13", City = "Halifax" },
+        };
+
+        public static void AddServer(ServerModel server)
+        {
+            var maxId = servers.Max(s => s.Id);
+            server.Id = maxId + 1;
+            servers.Add(server);
+        }
+
+        public static List<ServerModel> GetServers() => servers;
+
+        public static List<ServerModel> GetServersByCity(string cityName)
+        {
+            return servers.Where(s => s.City.Equals(cityName, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+
+        public static ServerModel? GetServerById(int id)
+        {
+            return servers.FirstOrDefault(s => s.Id == id);
+        }
+
+        public static void UpdateServer(int serverId, ServerModel server)
+        {
+            if (serverId != server.Id) return;
+
+            var serverToUpdate = servers.FirstOrDefault(s => s.Id == serverId);
+            if (serverToUpdate != null)
+            {
+                serverToUpdate.IsOnline = server.IsOnline;
+                serverToUpdate.Name = server.Name;
+                serverToUpdate.City = server.City;
+            }
+        }
+
+        public static void DeleteServer(int serverId)
+        {
+            var server = servers.FirstOrDefault(s => s.Id == serverId);
+            if (server != null)
+            {
+                servers.Remove(server);
+            }
+        }
+
+        public static List<ServerModel> SearchServers(string serverFilter)
+        {
+            return servers.Where(s => s.Name.Contains(serverFilter, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+}

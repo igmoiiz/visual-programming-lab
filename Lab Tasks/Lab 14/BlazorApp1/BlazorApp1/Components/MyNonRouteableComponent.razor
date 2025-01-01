@@ -1,0 +1,10 @@
+﻿<h3 style="color: white;">My Non-Routable Component</h3>
+
+<p style="color: white;">This component can only be used as a child component in other pages or components.</p>
+@code {
+    
+    [Parameter]
+    public string Title { get; set; } = "Default Title";
+}
+
+<div style="color: white;">@Title</div>
