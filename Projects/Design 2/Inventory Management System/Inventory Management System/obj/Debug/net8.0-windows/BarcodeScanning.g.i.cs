@@ -68,7 +68,7 @@ namespace Inventory_Management_System {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Inventory Management System;V1.0.0.0;component/barcodescanning.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Inventory Management System;component/barcodescanning.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\BarcodeScanning.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

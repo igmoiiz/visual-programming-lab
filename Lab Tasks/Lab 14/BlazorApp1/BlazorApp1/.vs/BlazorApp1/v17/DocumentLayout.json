@@ -54,8 +54,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T08:13:00.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T08:13:00.744Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Components\\Layout\\Server.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T09:12:59.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T09:12:59.413Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-01T09:13:19.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-01T09:13:19.285Z"
             },
             {
               "$type": "Document",
@@ -103,7 +100,7 @@
               "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
               "ToolTip": "D:\\Programming\\Visual Programming\\Lab Tasks\\Lab 14\\BlazorApp1\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwCIAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-28T08:44:48.125Z",
               "EditorCaption": ""

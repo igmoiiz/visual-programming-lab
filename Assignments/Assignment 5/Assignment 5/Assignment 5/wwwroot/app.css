@@ -1,0 +1,21 @@
+.city-button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    .city-button:hover {
+        background-color: #0056b3; /* Darker shade for hover */
+        transform: translateY(-2px); /* Slight lift effect */
+    }
+
+    .city-button:active {
+        transform: translateY(0); /* Reset lift effect on click */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }

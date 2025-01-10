@@ -52,7 +52,7 @@ namespace Inventory_Management_System {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Inventory Management System;V1.0.0.0;component/interfacepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Inventory Management System;component/interfacepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\InterfacePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

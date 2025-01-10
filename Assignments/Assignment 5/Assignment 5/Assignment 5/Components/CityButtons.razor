@@ -1,0 +1,18 @@
+﻿@page "/city-buttons"
+@using Assignment_5.Data
+@code {
+    private List<string> cities;
+
+    protected override void OnInitialized()
+    {
+        cities = CitiesRepository.GetCities();
+    }
+}
+
+<h3>City Buttons</h3>
+<div>
+    @foreach (var city in cities)
+    {
+        <button class="btn btn-primary m-1">@city</button>
+    }
+</div>

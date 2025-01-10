@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -83,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|d:\\programming\\visual programming\\projects\\design 2\\inventory management system\\inventory management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C419EECC-BDF2-472A-8F66-4084B36F519A}|Inventory Management System\\Inventory Management System.csproj|solutionrelative:inventory management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -98,41 +98,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Settings.xaml.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\Settings.xaml.cs",
-              "RelativeDocumentMoniker": "Inventory Management System\\Settings.xaml.cs",
-              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\Settings.xaml.cs",
-              "RelativeToolTip": "Inventory Management System\\Settings.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwBwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:53:23.749Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StockMovement.xaml.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\StockMovement.xaml.cs",
-              "RelativeDocumentMoniker": "Inventory Management System\\StockMovement.xaml.cs",
-              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\StockMovement.xaml.cs",
-              "RelativeToolTip": "Inventory Management System\\StockMovement.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:53:35.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "SupplierManagement.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\SupplierManagement.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\SupplierManagement.xaml.cs",
@@ -140,12 +118,11 @@
               "RelativeToolTip": "Inventory Management System\\SupplierManagement.xaml.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAcwCMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:54:09.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:54:09.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserManagement.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\UserManagement.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\UserManagement.xaml.cs",
@@ -159,6 +136,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Settings.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\Settings.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\Settings.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\Settings.xaml.cs",
+              "RelativeToolTip": "Inventory Management System\\Settings.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwBwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:53:23.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\DatabaseHelper.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\DatabaseHelper.cs",
+              "RelativeToolTip": "Inventory Management System\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:44:48.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockMovement.xaml.cs",
+              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\StockMovement.xaml.cs",
+              "RelativeDocumentMoniker": "Inventory Management System\\StockMovement.xaml.cs",
+              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\StockMovement.xaml.cs",
+              "RelativeToolTip": "Inventory Management System\\StockMovement.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T17:53:35.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SalesOrderManagement.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\SalesOrderManagement.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\SalesOrderManagement.xaml.cs",
@@ -166,12 +180,11 @@
               "RelativeToolTip": "Inventory Management System\\SalesOrderManagement.xaml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:53:15.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:53:15.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ReportsAndAnalytics.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\ReportsAndAnalytics.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\ReportsAndAnalytics.xaml.cs",
@@ -179,12 +192,11 @@
               "RelativeToolTip": "Inventory Management System\\ReportsAndAnalytics.xaml.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:52:44.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:52:44.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ReorderAlerts.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\ReorderAlerts.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\ReorderAlerts.xaml.cs",
@@ -192,12 +204,11 @@
               "RelativeToolTip": "Inventory Management System\\ReorderAlerts.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:52:30.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:52:30.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PurchaseOrderManagement.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\PurchaseOrderManagement.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\PurchaseOrderManagement.xaml.cs",
@@ -205,12 +216,11 @@
               "RelativeToolTip": "Inventory Management System\\PurchaseOrderManagement.xaml.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowBgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:52:09.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:52:09.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProductsPage.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\ProductsPage.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\ProductsPage.xaml.cs",
@@ -218,12 +228,11 @@
               "RelativeToolTip": "Inventory Management System\\ProductsPage.xaml.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAwwCkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:42:57.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:42:57.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NotificationsCenter.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\NotificationsCenter.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\NotificationsCenter.xaml.cs",
@@ -231,12 +240,11 @@
               "RelativeToolTip": "Inventory Management System\\NotificationsCenter.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:51:35.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:51:35.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LengthToVisibilityConverter.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\LengthToVisibilityConverter.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\LengthToVisibilityConverter.cs",
@@ -244,12 +252,11 @@
               "RelativeToolTip": "Inventory Management System\\LengthToVisibilityConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:50:59.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:50:59.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InventoryTracking.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\InventoryTracking.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\InventoryTracking.xaml.cs",
@@ -257,12 +264,11 @@
               "RelativeToolTip": "Inventory Management System\\InventoryTracking.xaml.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAA9wCwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:50:30.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:50:30.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HelpAndSupport.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\HelpAndSupport.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\HelpAndSupport.xaml.cs",
@@ -270,12 +276,11 @@
               "RelativeToolTip": "Inventory Management System\\HelpAndSupport.xaml.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:50:10.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:50:10.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CustomerManagement.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\CustomerManagement.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\CustomerManagement.xaml.cs",
@@ -283,12 +288,11 @@
               "RelativeToolTip": "Inventory Management System\\CustomerManagement.xaml.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwDkAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:49:50.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:49:50.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BarcodeScanning.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\BarcodeScanning.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\BarcodeScanning.xaml.cs",
@@ -296,12 +300,11 @@
               "RelativeToolTip": "Inventory Management System\\BarcodeScanning.xaml.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwBIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:49:22.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:49:22.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AuditLogs.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\AuditLogs.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\AuditLogs.xaml.cs",
@@ -309,24 +312,22 @@
               "RelativeToolTip": "Inventory Management System\\AuditLogs.xaml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:49:04.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:49:04.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AuditLogs.xaml",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\AuditLogs.xaml",
               "RelativeDocumentMoniker": "Inventory Management System\\AuditLogs.xaml",
               "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\AuditLogs.xaml",
               "RelativeToolTip": "Inventory Management System\\AuditLogs.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-26T17:49:01.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:49:01.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "InterfacePage.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\InterfacePage.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\InterfacePage.xaml.cs",
@@ -334,12 +335,11 @@
               "RelativeToolTip": "Inventory Management System\\InterfacePage.xaml.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAIwEQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:43:07.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:43:07.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\LoginPage.xaml.cs",
@@ -347,12 +347,11 @@
               "RelativeToolTip": "Inventory Management System\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:42:49.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:42:49.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Inventory Management System\\MainWindow.xaml.cs",
@@ -360,21 +359,7 @@
               "RelativeToolTip": "Inventory Management System\\MainWindow.xaml.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAowDEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:44:34.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "Inventory Management System\\DatabaseHelper.cs",
-              "ToolTip": "D:\\Programming\\Visual Programming\\Projects\\Design 2\\Inventory Management System\\Inventory Management System\\DatabaseHelper.cs",
-              "RelativeToolTip": "Inventory Management System\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-26T17:44:48.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:44:34.678Z"
             },
             {
               "$type": "Document",
@@ -386,8 +371,7 @@
               "RelativeToolTip": "Inventory Management System\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-26T17:42:24.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-26T17:42:24.616Z"
             }
           ]
         }
